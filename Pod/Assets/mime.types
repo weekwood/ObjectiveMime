@@ -1095,6 +1095,7 @@ application/x-pkcs12				p12 pfx
 application/x-pkcs7-certificates		p7b spc
 application/x-pkcs7-certreqresp			p7r
 application/x-rar-compressed			rar
+application/x-rar						rar
 application/x-research-info-systems		ris
 application/x-sh				sh
 application/x-shar				shar
@@ -1437,7 +1438,7 @@ text/csv					csv
 # text/example
 # text/fwdred
 text/html					html htm
-# text/javascript
+text/javascript
 text/n3						n3
 # text/parityfec
 text/plain					txt text conf def list log in
