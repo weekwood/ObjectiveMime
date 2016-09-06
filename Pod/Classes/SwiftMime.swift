@@ -10,17 +10,20 @@
 
 import Foundation
 
-private let sharedInstance = SwiftMime()
-
-public class SwiftMime{
+public class SwiftMime {
+    
+    public static let sharedInstance = SwiftMime()
     
     var types = [NSString: NSString]()
     var extensions = [NSString: NSString]()
     
-    public class var sharedManager : SwiftMime {
-        sharedInstance.loadTypesFile("mime")
-        sharedInstance.loadTypesFile("node")
-        return sharedInstance
+    private init() {
+        self.initialize()
+    }
+    
+    func initialize(){
+        self.loadTypesFile("mime")
+        self.loadTypesFile("node")
     }
     
     public func define(map: NSDictionary){
