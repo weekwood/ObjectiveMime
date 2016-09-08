@@ -12,7 +12,7 @@ import Foundation
 
 public class SwiftMime {
     
-    public static let sharedInstance = SwiftMime()
+    public static let sharedManager = SwiftMime()
     
     var types = [NSString: NSString]()
     var extensions = [NSString: NSString]()
