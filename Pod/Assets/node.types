@@ -62,7 +62,7 @@ text/x-markdown  markdown md mkd
 # What: ini files
 # Why: because they're just text files
 # Added by: Matthew Kastor
-text/plain  txt
+text/plain  ini
 
 # What: DASH Adaptive Streaming manifest
 # Why: https://developer.mozilla.org/en-US/docs/DASH_Adaptive_Streaming_for_HTML_5_Video
